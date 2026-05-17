@@ -98,6 +98,52 @@ cp -R SEO-AI-Skills ~/.codex/skills/seo-content-optimizer
 
 The skill name inside `SKILL.md` is `seo-content-optimizer`, so using that folder name helps keep discovery and invocation clear.
 
+## Install With `npx`
+
+This repository can be packaged as a small npm CLI installer.
+
+The installer copies the skill into:
+
+- `$CODEX_HOME/skills/seo-content-optimizer` when `CODEX_HOME` is set
+- `~/.codex/skills/seo-content-optimizer` otherwise
+
+### Local test
+
+From the repository root:
+
+```bash
+node bin/install.js --dry-run
+node bin/install.js --target /tmp/seo-content-optimizer-test
+```
+
+### After publishing to npm
+
+Once the package is published under the npm name `seo-ai-skills`, users will be able to run:
+
+```bash
+npx seo-ai-skills
+```
+
+Optional flags:
+
+```bash
+npx seo-ai-skills --force
+npx seo-ai-skills --target ~/.codex/skills/seo-content-optimizer
+```
+
+## What Still Needs To Happen
+
+To make the `npx` flow work for other users, this repository still needs one release step:
+
+1. Publish the package to npm under an available package name such as `seo-ai-skills`
+
+The repository now contains:
+
+- `package.json`
+- `bin/install.js`
+
+Those are the pieces that make the skill installable through `npx` after npm publication.
+
 ## Claude Code Support
 
 This repo now includes Claude Code project-skill support.
