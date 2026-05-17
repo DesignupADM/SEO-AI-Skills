@@ -12,17 +12,20 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 - Short answer-style summary of the company or product
 - Trust signals near the top: clients, proof, reviews, awards, or credentials
 - Clean paths into the top service, product, or content clusters
+- Obvious brand and business details when trust matters
 
 **Common misses**
 - Generic welcome language
 - Too many competing messages
 - Weak internal links into money pages
 - No immediate proof or differentiation
+- No clear route into the main pillar pages or topic clusters
 
 **Quick wins**
 - Rewrite the title, meta description, H1, and hero copy
 - Add a concise "what we do" paragraph
 - Add a short FAQ or comparison block
+- Strengthen links to the top service, proof, and about pages
 
 ## Service Or Landing Page
 
@@ -34,17 +37,19 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 - Benefits and outcomes
 - Process, deliverables, or scope
 - Proof elements and CTA alignment
+- Trust details such as team credibility, policy links, or contact depth
 
 **Common misses**
 - Thin copy
 - Abstract claims without proof
 - CTA that does not match the page promise
 - No internal links to supporting pages or case studies
+- No entity support around tools, methods, pricing model, or delivery scope
 
 **Quick wins**
 - Add a stronger value proposition
 - Add proof, deliverables, and objection-handling FAQs
-- Add internal links to case studies, contact, and related services
+- Add internal links to case studies, contact, related services, and the nearest pillar page
 
 ## Article Or Blog Post
 
@@ -52,9 +57,11 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 
 **Must-have elements**
 - Clear topic statement near the top
+- Author or expertise hook that explains why this source is worth trusting
 - Answer-first introduction
 - Logical H2s that mirror user questions or subtopics
-- Original examples, comparisons, or process detail
+- Original examples, comparisons, process detail, or first-hand observations
+- Supporting entities and semantic terms that complete the topic naturally
 - Related-link suggestions to relevant commercial pages
 
 **Common misses**
@@ -62,11 +69,15 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 - Keyword targeting without useful structure
 - No snippet-friendly list, table, or FAQ section
 - No explicit tie-in to the site's entity or expertise
+- Generic summary content with no information gain
+- No original screenshots, diagrams, examples, or data when the topic needs proof
 
 **Quick wins**
 - Rewrite the intro into a 40 to 60 word answer block
 - Turn weak subheads into question-led or intent-led H2s
 - Add a summary list, table, or FAQ
+- Add an author, operator, or expert hook near the intro
+- Add one unique angle: benchmark, example, framework, myth-vs-fact, or process insight
 
 ## FAQ Or Help Page
 
@@ -88,6 +99,51 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 - Tighten question phrasing
 - Add related links and FAQ schema recommendation
 
+## Comparison Or Review Page
+
+**Primary goal:** help a user make a decision with original evidence and clear tradeoffs.
+
+**Must-have elements**
+- Clear verdict or "best for" framing near the top
+- Evaluation criteria or comparison table
+- Pros and cons for each option
+- Evidence from use, testing, expert knowledge, or direct research
+- Links to deeper reviews, product pages, or helpful alternatives
+
+**Common misses**
+- Thin summaries that just restate vendor copy
+- No reason given for rankings or recommendations
+- No mention of drawbacks, alternatives, or tradeoffs
+- "Best" claims without first-hand or source-backed support
+
+**Quick wins**
+- Add a verdict summary and comparison table
+- Add decision factors, pros and cons, and evidence notes
+- Add Review, Product, or SoftwareApplication schema only if the page visibly supports it
+
+## Tutorial Or How-To Page
+
+**Primary goal:** help a user complete a task with minimal ambiguity.
+
+**Must-have elements**
+- Clear outcome statement near the top
+- Prerequisites, tools, or assumptions
+- Step-by-step structure with descriptive subheads
+- Screenshots, visuals, or code samples when they materially reduce confusion
+- Summary, next step, or troubleshooting link
+
+**Common misses**
+- No direct answer before the walkthrough
+- Steps that are too abstract or skip key prerequisites
+- No media support where visuals would clarify the process
+- No HowTo structure even though the page is clearly procedural
+
+**Quick wins**
+- Add a concise outcome paragraph and prerequisite list
+- Convert dense paragraphs into ordered steps
+- Add image captions, diagrams, or screen references
+- Recommend HowTo or VideoObject schema when the visible content supports it
+
 ## Location Page
 
 **Primary goal:** establish local relevance and trust without doorway-page fluff.
@@ -98,14 +154,17 @@ Use the matching playbook before making rewrite recommendations. Tailor the fix 
 - Clear service plus geography phrasing
 - Local proof, examples, or service details
 - Contact or booking CTA
+- Business details that align with what users would need before contacting or visiting
 
 **Common misses**
 - Swapped city names with duplicated copy
 - No local proof
 - Weak contact details
 - No local business schema recommendation
+- No localized internal links to nearby service, team, or contact pages
 
 **Quick wins**
 - Add location-specific proof and service detail
 - Improve title, H1, and intro with natural local phrasing
 - Recommend LocalBusiness schema and stronger NAP presentation
+- Add links back to the main service hub and related local pages only when they are genuinely distinct

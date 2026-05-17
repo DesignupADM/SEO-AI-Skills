@@ -4,13 +4,16 @@
 
 It helps agents audit live pages, review whole sites, improve article drafts, rewrite landing-page copy, and re-check content after edits. The skill is designed to produce concrete outputs, not generic advice.
 
+The current version is calibrated for modern search behavior, including AI features, helpful content standards, richer structured data decisions, stronger trust signals, and better answer extraction.
+
 ## What This Skill Does
 
-- Audits live URLs, websites, raw HTML, Markdown, CMS exports, local files, and pasted copy
+- Audits live URLs, websites, raw HTML, CMS exports, local files, and pasted copy
 - Scores content across SEO, GEO, and AEO
 - Finds issues in titles, meta descriptions, H1s, headings, internal links, schema, trust signals, and answer-engine readiness
+- Checks first-hand experience, information gain, entity coverage, internal-link structure, media support, and business or author trust cues
 - Produces a fix pack with revised metadata and content suggestions
-- Adapts recommendations by page type: homepage, service page, article, FAQ page, or location page
+- Adapts recommendations by page type: homepage, service page, article, FAQ page, location page, comparison or review page, or tutorial page
 
 ## What Users Get
 
@@ -25,6 +28,8 @@ For each page or draft, the skill can produce:
 - FAQ suggestions
 - Internal-link ideas
 - Schema recommendations
+- Entity and coverage gap notes
+- Media and proof suggestions
 - A short recheck summary after edits
 
 ## Best Use Cases
@@ -73,6 +78,7 @@ SEO-AI-Skills/
 ├── agents/
 │   └── openai.yaml
 └── references/
+    ├── modern-seo-standards.md
     ├── output-templates.md
     ├── page-type-playbooks.md
     ├── rewrite-patterns.md
@@ -83,6 +89,7 @@ SEO-AI-Skills/
 
 - `SKILL.md`: core behavior, workflow, output contract, and guardrails
 - `references/scoring-rubric.md`: weighted scoring logic for SEO, GEO, and AEO
+- `references/modern-seo-standards.md`: distilled guidance from current Google Search documentation
 - `references/page-type-playbooks.md`: page-specific optimization guidance
 - `references/rewrite-patterns.md`: rewrite patterns for titles, metas, intros, FAQs, and schema
 - `references/output-templates.md`: concise output formats for audits and fix packs
@@ -171,6 +178,7 @@ The canonical workflow for all supported agents remains:
 
 - `SKILL.md`
 - `references/scoring-rubric.md`
+- `references/modern-seo-standards.md`
 - `references/page-type-playbooks.md`
 - `references/rewrite-patterns.md`
 - `references/output-templates.md`
@@ -196,6 +204,8 @@ It emphasizes:
 - safe rewrites without invented claims
 - answer-first content for AEO
 - entity clarity and trust signals for GEO
+- information gain and first-hand experience over generic summary content
+- schema recommendations that stay aligned with visible-page truth
 
 ## Limitations
 

@@ -1,7 +1,7 @@
 {
   "name": "seo-ai-skills",
-  "version": "0.1.0",
-  "description": "Installer for the seo-content-optimizer Codex skill with Claude Code and Antigravity support files.",
+  "version": "0.2.0",
+  "description": "Installer for a modern SEO, GEO, and AEO content optimization skill with Codex, Claude Code, and Antigravity support files.",
   "license": "MIT",
   "type": "commonjs",
   "repository": {
@@ -33,6 +33,8 @@
     "seo",
     "geo",
     "aeo",
+    "ai-search",
+    "schema",
     "codex-skill",
     "claude-code",
     "antigravity"

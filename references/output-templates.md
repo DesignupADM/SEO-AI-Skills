@@ -31,6 +31,7 @@ Use these templates to keep responses concise and consistent.
 **Revised title:** [text]
 **Revised meta description:** [text]
 **Recommended H1:** [text]
+**Author or trust hook:** [text or "Not needed"]
 **Answer-first intro:** [text]
 
 **FAQ additions**
@@ -45,7 +46,9 @@ Use these templates to keep responses concise and consistent.
 - [Anchor text] -> [destination]
 - [Anchor text] -> [destination]
 
-**Schema recommendation:** [type and why]
+**Entity or coverage gaps:** [missing subtopics, supporting entities, or comparison points]
+**Media or proof improvements:** [image, chart, caption, screenshot, video, or evidence idea]
+**Schema recommendation:** [type, key properties, and why]
 ```
 
 ## Recheck

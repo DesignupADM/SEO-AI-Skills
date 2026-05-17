@@ -8,8 +8,9 @@ Run a fast SEO, GEO, and AEO audit for the supplied page, site, or content draft
 2. Load any needed repo-root references from `references/`.
 3. Inspect the page, site, or supplied content directly before making claims.
 4. Score SEO, GEO, and AEO.
-5. Identify the top three priorities and the biggest strength.
-6. Produce a fix pack for the primary page or draft.
+5. Check for first-hand experience, information gain, trust signals, and entity coverage.
+6. Identify the top three priorities and the biggest strength.
+7. Produce a fix pack for the primary page or draft.
 
 ## Output
 

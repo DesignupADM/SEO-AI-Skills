@@ -1,4 +1,4 @@
 interface:
   display_name: "SEO Content Optimizer"
-  short_description: "Audit and improve pages and articles"
-  default_prompt: "Use $seo-content-optimizer to audit this page and propose SEO fixes."
+  short_description: "Modern SEO, GEO, and AEO audits and fix packs"
+  default_prompt: "Use $seo-content-optimizer to audit this page or article, score SEO, GEO, and AEO, and propose modern search-ready fixes."
