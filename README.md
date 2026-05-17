@@ -57,8 +57,19 @@ The skill supports four working modes:
 
 ```text
 SEO-AI-Skills/
+├── CLAUDE.md
 ├── SKILL.md
 ├── README.md
+├── .agent/
+│   ├── rules/
+│   │   └── seo-content-optimization.md
+│   └── workflows/
+│       ├── content-rewrite.md
+│       └── quick-seo-audit.md
+├── .claude/
+│   └── skills/
+│       └── seo-content-optimizer/
+│           └── SKILL.md
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -86,6 +97,39 @@ cp -R SEO-AI-Skills ~/.codex/skills/seo-content-optimizer
 ```
 
 The skill name inside `SKILL.md` is `seo-content-optimizer`, so using that folder name helps keep discovery and invocation clear.
+
+## Claude Code Support
+
+This repo now includes Claude Code project-skill support.
+
+Claude's official docs say project skills live in `.claude/skills/<skill-name>/SKILL.md`, so this repository includes:
+
+- `.claude/skills/seo-content-optimizer/SKILL.md`
+- `CLAUDE.md`
+
+For Claude Code users, the `.claude/skills/seo-content-optimizer/` entry points back to the canonical repo-root `SKILL.md` and `references/` files, so the instructions stay aligned across tools.
+
+## Antigravity Support
+
+This repo also includes Antigravity workspace support using its project customization paths:
+
+- `.agent/rules/seo-content-optimization.md`
+- `.agent/workflows/quick-seo-audit.md`
+- `.agent/workflows/content-rewrite.md`
+
+These files are designed to guide Antigravity agents toward the same quick-audit and fix-pack behavior as the Codex skill, without changing the canonical root skill files.
+
+## Source Of Truth
+
+The canonical workflow for all supported agents remains:
+
+- `SKILL.md`
+- `references/scoring-rubric.md`
+- `references/page-type-playbooks.md`
+- `references/rewrite-patterns.md`
+- `references/output-templates.md`
+
+The Claude Code and Antigravity support files are compatibility layers that point agents back to those root files.
 
 ## Example Prompts
 
