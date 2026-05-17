@@ -1,0 +1,40 @@
+{
+  "name": "seo-ai-skills",
+  "version": "0.1.0",
+  "description": "Installer for the seo-content-optimizer Codex skill with Claude Code and Antigravity support files.",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesignupADM/SEO-AI-Skills.git"
+  },
+  "homepage": "https://github.com/DesignupADM/SEO-AI-Skills",
+  "bugs": {
+    "url": "https://github.com/DesignupADM/SEO-AI-Skills/issues"
+  },
+  "bin": {
+    "seo-ai-skills": "bin/install.js"
+  },
+  "files": [
+    ".agent",
+    ".claude",
+    "agents",
+    "references",
+    "bin",
+    "CLAUDE.md",
+    "LICENSE",
+    "README.md",
+    "SKILL.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "seo",
+    "geo",
+    "aeo",
+    "codex-skill",
+    "claude-code",
+    "antigravity"
+  ]
+}
