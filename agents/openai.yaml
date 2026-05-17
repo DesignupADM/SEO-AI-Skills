@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO Content Optimizer"
+  short_description: "Audit and improve pages and articles"
+  default_prompt: "Use $seo-content-optimizer to audit this page and propose SEO fixes."
