@@ -1,6 +1,6 @@
 ---
 name: seo-content-optimizer
-description: Audit and improve SEO, GEO, and AEO performance for articles, landing pages, service pages, homepages, FAQs, comparison pages, reviews, tutorials, local pages, and other web content. Use when Claude Code needs to analyze a live URL, full website, raw HTML, Markdown, CMS export, local content file, or pasted copy for search visibility, meta tags, heading structure, internal links, snippet readiness, schema opportunities, business and author trust signals, entity coverage, multilingual or local targeting, AI-search clarity, or content quality. Also use when the user asks to optimize an article, rewrite titles and meta descriptions, improve answer-engine performance, add FAQ or HowTo sections, strengthen E-E-A-T, increase information gain, or re-check content after edits.
+description: Use when auditing or optimizing SEO, GEO, or AEO content from a URL, website, HTML, Markdown, CMS export, local file, or draft. Covers metadata, search intent, headings, internal links, schema fit, trust and first-hand evidence, entity coverage, localization, snippets, and AI-search clarity.
 ---
 
 # SEO Content Optimizer

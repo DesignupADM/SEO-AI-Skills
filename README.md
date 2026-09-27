@@ -105,9 +105,25 @@ cp -R SEO-AI-Skills ~/.codex/skills/seo-content-optimizer
 
 The skill name inside `SKILL.md` is `seo-content-optimizer`, so using that folder name helps keep discovery and invocation clear.
 
-## Install With `npx`
+## Install From GitHub With `npx skills`
 
-This repository can be packaged as a small npm CLI installer.
+Install the skill directly from this public GitHub repository with the official Agent Skills CLI:
+
+```bash
+npx skills add DesignupADM/SEO-AI-Skills --skill seo-content-optimizer
+```
+
+The CLI discovers the root `SKILL.md` and installs the skill for the supported agent(s) you select. To list the skills before installing:
+
+```bash
+npx skills add DesignupADM/SEO-AI-Skills --list
+```
+
+The repository is directly installable this way; no separate registry manifest is required. The `skills.sh` catalog is maintained by the directory service and is not published by adding a local listing file.
+
+## Install With The `seo-ai-skills` npm Package
+
+This repository also includes a small npm CLI installer for Codex.
 
 The installer copies the skill into:
 
@@ -138,18 +154,11 @@ npx seo-ai-skills --force
 npx seo-ai-skills --target ~/.codex/skills/seo-content-optimizer
 ```
 
-## What Still Needs To Happen
+## npm Release Step
 
-To make the `npx` flow work for other users, this repository still needs one release step:
+The GitHub-based `npx skills add` flow above works without an npm release. To enable the separate `npx seo-ai-skills` installer, publish this package to npm under an available package name such as `seo-ai-skills`.
 
-1. Publish the package to npm under an available package name such as `seo-ai-skills`
-
-The repository now contains:
-
-- `package.json`
-- `bin/install.js`
-
-Those are the pieces that make the skill installable through `npx` after npm publication.
+The npm installer is defined by `package.json` and `bin/install.js` and targets Codex.
 
 ## Claude Code Support
 

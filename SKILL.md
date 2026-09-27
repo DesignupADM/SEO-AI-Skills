@@ -1,6 +1,6 @@
 ---
 name: seo-content-optimizer
-description: Audit and improve SEO, GEO, and AEO performance for articles, landing pages, service pages, homepages, FAQs, comparison pages, reviews, tutorials, local pages, and other web content. Use when Codex needs to analyze a live URL, full website, raw HTML, Markdown, CMS export, local content file, or pasted copy for search visibility, meta tags, heading structure, internal links, snippet readiness, schema opportunities, business and author trust signals, entity coverage, multilingual or local targeting, AI-search clarity, or content quality. Also use when the user asks to optimize an article, rewrite titles and meta descriptions, improve answer-engine performance, add FAQ or HowTo sections, strengthen E-E-A-T, increase information gain, or re-check content after edits.
+description: Use when auditing or optimizing SEO, GEO, or AEO content from a URL, website, HTML, Markdown, CMS export, local file, or draft. Covers metadata, search intent, headings, internal links, schema fit, trust and first-hand evidence, entity coverage, localization, snippets, and AI-search clarity.
 ---
 
 # SEO Content Optimizer
@@ -10,6 +10,13 @@ description: Audit and improve SEO, GEO, and AEO performance for articles, landi
 Use this skill to run fast, evidence-based SEO reviews and produce concrete content fixes. Default to a quick, high-signal pass that surfaces the biggest problems and immediately returns improved copy, then go deeper only when the user asks for a comprehensive audit or the content clearly needs it.
 
 Modern search visibility is not just metadata. Treat helpful, people-first content, first-hand experience, clean crawlability, internal-link architecture, structured data accuracy, and answer extraction as part of the same system.
+
+## When to Use
+
+- Audit a live page or website for SEO, GEO, or AEO issues.
+- Optimize unpublished web copy, metadata, or page structure.
+- Re-check content after revisions.
+- Use this skill for evidence-based content recommendations; use a technical SEO or analytics workflow when the task requires crawl data, rankings, performance measurements, or Search Console access.
 
 ## Workflow Decision Tree
 
@@ -75,7 +82,14 @@ Modern search visibility is not just metadata. Treat helpful, people-first conte
 
 ## Step 4: Produce A Fix Pack
 
-For every primary page or draft under review, provide:
+Match the deliverables to the selected mode. Do not force a full fix pack into a quick audit.
+
+- For `quick-audit`, give the highest-impact findings and only the rewrite suggestions that address them.
+- For `full-audit`, give page-level findings and a prioritized site-wide action plan.
+- For `draft-optimization`, lead with the revised copy and supporting elements that fit the page.
+- For `recheck`, compare the revised artifact with the recorded baseline and identify remaining work.
+
+Choose relevant items from this fix-pack menu:
 
 - Revised SEO title
 - Revised meta description
@@ -118,6 +132,12 @@ Add these extras when the page type calls for them:
 - Separate observed facts from assumptions.
 - Call out unresolved items that require external tools or data, such as Core Web Vitals, backlinks, indexing status, actual rankings, rich-result validation, or Search Console performance data.
 - If the user asked for direct edits, lead with the improved copy and keep the audit narrative brief.
+
+## Limitations
+
+- Do not claim to verify rankings, backlinks, indexing, Core Web Vitals, or Search Console results without the relevant data or tools.
+- Treat technical elements not visible in the supplied artifact as unverified, not absent.
+- Do not invent experience, credentials, evidence, or business claims to make a page appear more authoritative.
 
 ## Output Contract
 
