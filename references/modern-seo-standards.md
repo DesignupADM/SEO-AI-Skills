@@ -121,3 +121,7 @@ Primary references (AI-features guidance checked 2026-09-28; recheck feature-spe
 - [Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 - [Structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)
 - [Supported structured data features](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)
+
+## Reconciling external advice
+
+For the five supplied industry articles, see [source-review.md](source-review.md). Use [content-strategy.md](content-strategy.md) for their actionable synthesis. Prefer current primary platform documentation over dated checklists or vendor claims when a recommendation depends on search features or tools.

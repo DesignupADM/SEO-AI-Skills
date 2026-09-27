@@ -143,6 +143,8 @@ When media could strengthen the page, suggest:
 
 Prefer original visuals when the page relies on proof, demonstration, or comparison.
 
+For meaningful images, describe the information or function in context without keyword stuffing. Decorative images should use an empty alternative where appropriate; do not give every image a promotional description. For video or audio, recommend accurate captions/transcripts and a useful surrounding summary when relevant; do not invent a transcript from an inaccessible recording.
+
 ## Safe Rewrite Guardrails
 
 - Preserve claims unless the user asks to reposition the offer

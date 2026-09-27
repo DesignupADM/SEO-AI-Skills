@@ -267,3 +267,7 @@ Use `--target /path/to/seo-content-optimizer` to override the destination. Exist
 Provider path sources checked 2026-09-28: [Claude Code](https://code.claude.com/docs/en/skills), [Gemini CLI](https://geminicli.com/docs/cli/skills/), [Cursor](https://cursor.com/docs/skills), [GitHub Copilot](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills). Codex retains this repository's existing installation convention and native UI metadata.
 
 Run `npm test` to check all five installation layouts, reference integrity, overwrite handling, and invalid arguments. These checks verify packaging and installation, not live activation in each product. Reload skills or start a new session after installation. Personal installs do not imply availability in hosted/cloud agents; use project installs where supported. Existing Antigravity workspace rules and workflows remain available separately.
+
+## Additional SEO source material
+
+The skill incorporates the supplied Semrush, Michigan Tech, Bynder, Salesforce, and Search Engine Journal articles through [content strategy](references/content-strategy.md) and a [source review](references/source-review.md). These references add intent planning, content briefs, refresh decisions, media accessibility, local relevance, and business measurement. The source review records article dates and identifies outdated or unsupported prescriptions excluded from the workflow. Provider installations include both references automatically.

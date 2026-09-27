@@ -22,6 +22,8 @@ Direct editing requests take precedence over the default quick audit. A full aud
 
 ## Load only relevant guidance
 
+- [Content strategy](references/content-strategy.md): query/prompt research, briefs, refresh decisions, local relevance, and business measurement.
+- [Source review](references/source-review.md): provenance and qualifications for the five supplied SEO articles; read when resolving conflicting advice.
 - [Audit workflow](references/audit-workflow.md): live inspection, site scope, evidence capture, tool limitations, and rechecks.
 - [Page-type playbooks](references/page-type-playbooks.md): choosing checks for a homepage, service, article, FAQ, review, tutorial, or location page.
 - [Rewrite patterns](references/rewrite-patterns.md): producing metadata, copy, links, or schema suggestions.
