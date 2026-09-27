@@ -60,7 +60,7 @@ Only use this when the underlying fact is true and supported by the page or the 
 
 ## Answer-First Intro Pattern
 
-Use a 40 to 60 word opening block that answers the likely core query immediately:
+When useful, use a concise opening block (40 to 60 words is a drafting heuristic) that answers the likely core query immediately:
 
 `[Topic] is [plain definition or outcome]. It helps [audience] [benefit]. On this page, explain [key angle], cover [important subtopics], and show [proof, examples, or next steps] so the visitor can act confidently.`
 
@@ -107,6 +107,8 @@ Treat internal linking as a hub-and-spoke system:
 Anchor text should describe the destination naturally. Keep anchors concise, relevant, and varied enough to avoid obvious exact-match repetition.
 
 ## Schema Selection Pattern
+
+These are vocabulary candidates, not guaranteed Google rich-result features. Check current engine-specific eligibility before recommending implementation. Do not add FAQ or HowTo markup solely to chase search appearance.
 
 - Homepage: `Organization` or `LocalBusiness`, plus `WebSite` and `WebPage` when the page supports them
 - Service page: `Service`, plus `FAQPage` when visible FAQs exist

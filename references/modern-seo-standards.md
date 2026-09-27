@@ -97,6 +97,10 @@ Do not invent:
 - business policies or locations
 - rankings, indexing, or performance claims
 
+## Search-feature claims and freshness
+
+Google says its AI features need no special optimization or dedicated schema beyond established SEO practices. Do not present GEO/AEO heuristics, special files, or answer formats as guaranteed routes to inclusion. Distinguish semantic schema validity from current rich-result eligibility; verify the target feature in official documentation before promising any search appearance.
+
 ## Source Notes
 
 This reference distills current guidance from Google Search documentation covering:
@@ -109,3 +113,11 @@ This reference distills current guidance from Google Search documentation coveri
 - crawling controls
 - Core Web Vitals
 - review quality guidance
+
+
+Primary references (AI-features guidance checked 2026-09-28; recheck feature-specific requirements when used):
+
+- [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+- [Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+- [Structured data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)
+- [Supported structured data features](https://developers.google.com/search/docs/appearance/structured-data/search-gallery)

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "claude",
+  "display_name": "Anthropic Claude Code",
+  "project_directory": ".claude/skills",
+  "user_directory": ".claude/skills",
+  "skill_format": "SKILL.md",
+  "documentation": "https://code.claude.com/docs/en/skills"
+}

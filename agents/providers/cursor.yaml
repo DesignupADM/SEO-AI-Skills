@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "cursor",
+  "display_name": "Cursor",
+  "project_directory": ".cursor/skills",
+  "user_directory": ".cursor/skills",
+  "skill_format": "SKILL.md",
+  "documentation": "https://cursor.com/docs/skills"
+}

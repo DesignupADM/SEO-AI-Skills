@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "copilot",
+  "display_name": "GitHub Copilot",
+  "project_directory": ".github/skills",
+  "user_directory": ".copilot/skills",
+  "skill_format": "SKILL.md",
+  "documentation": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills"
+}

@@ -1,5 +1,6 @@
 # Page-Type Playbooks
 
+Use these as page-specific prompts, not mandatory additions. Apply only relevant checks; unsupported proof must remain a request for evidence. Schema candidates require current feature eligibility checks and do not imply rich-result support.
 Use the matching playbook before making rewrite recommendations. Tailor the fix pack to the page's job.
 
 ## Homepage

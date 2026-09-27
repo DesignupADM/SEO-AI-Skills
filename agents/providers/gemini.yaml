@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "gemini",
+  "display_name": "Google Gemini CLI",
+  "project_directory": ".gemini/skills",
+  "user_directory": ".gemini/skills",
+  "skill_format": "SKILL.md",
+  "documentation": "https://geminicli.com/docs/cli/skills/"
+}

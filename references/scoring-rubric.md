@@ -1,20 +1,15 @@
 # Scoring Rubric
 
-Use this rubric to keep quick audits consistent and to make fixes actionable instead of subjective.
+Use scores only when requested or useful for a comparable baseline. These are editorial heuristics, not Google scores, measured AI visibility, or predictions of ranking gains.
 
 ## Scoring Method
 
-1. Score each dimension independently.
-2. Use the weighted checklist below.
-3. Convert the earned points into a 1 to 10 score with `round(earned / max * 10)`.
-4. Round down by one point when a critical failure is present, such as:
-   - the page is unintentionally `noindex`
-   - the page lacks a usable title or H1
-   - the page has no clear primary topic
-   - the content makes unsupported trust or first-hand claims
-   - the page uses irrelevant or misleading structured data
-
-For drafts, score what is observable in the writing and mark technical-only checks as provisional. For site audits, weight the homepage and primary money pages more heavily than support articles or secondary pages.
+1. For each criterion, record applicable/observed, unverified, or not applicable, with evidence. Do not treat missing access as failure.
+2. Award zero, half, or full weight for an observed criterion: unmet, partly met, or met. Explain partial judgments briefly.
+3. Calculate `round(earned_observed_points / observed_applicable_points * 10, 1)` on a 0–10 scale. If the denominator is zero, report `not assessed`.
+4. Report coverage as observed applicable weight divided by total applicable weight, alongside excluded and unverified criteria. Below 50% coverage, report `insufficient evidence` instead of a headline score. This threshold is a reporting convention.
+5. Report critical blockers separately; do not apply an unexplained extra score penalty.
+6. Compare before/after scores only on the same criteria, weights, and evidence scope. Keep proposed-copy assessments separate from verified changes. Prefer page-level results; if aggregating a site score, disclose the page weights and sampling limits.
 
 ## SEO: 40 Points
 
@@ -22,7 +17,7 @@ For drafts, score what is observable in the writing and mark technical-only chec
 |---|---:|---|
 | Title link quality | 4 | Clear topic, good CTR potential, informative and compact |
 | Meta description and snippet controls | 4 | Helpful summary, intent match, no snippet-hostile controls unless intentional |
-| H1 and heading hierarchy | 4 | One clear H1, logical H2 and H3 structure |
+| H1 and heading hierarchy | 4 | Clear primary heading and logical section structure |
 | Canonical, robots, indexability | 5 | Crawlable, self-consistent, no accidental blocking |
 | URL clarity | 2 | Readable slug with topical phrasing |
 | Internal links and site structure | 4 | Important pages are easy to reach, anchors are relevant, cluster paths are sensible |
@@ -50,7 +45,7 @@ For drafts, score what is observable in the writing and mark technical-only chec
 | Direct answer block | 5 | A concise answer appears near the top |
 | Question-based headings | 4 | Natural `how`, `what`, `why`, `when`, or `who` headings where useful |
 | List or table extraction potential | 4 | Steps, comparisons, checklists, or tables are easy to extract |
-| FAQ, HowTo, or answer schema fit | 5 | FAQ or step-by-step content is present and can be marked up honestly |
+| Answer format fit | 5 | The format serves the intent; FAQs or steps only where useful |
 | Voice and local readiness | 3 | Conversational phrasing and local cues when relevant |
 | Micro-intent fit | 4 | Comparison, review, local, tutorial, or transactional sub-intents are handled explicitly |
 
@@ -59,7 +54,9 @@ For drafts, score what is observable in the writing and mark technical-only chec
 - `Critical`: likely blocking discoverability, trust, or answer extraction
 - `High`: materially limiting rankings, CTR, AI citation potential, or conversion clarity
 - `Medium`: worthwhile structural or content improvements with meaningful upside
-- `Quick win`: low-effort metadata, formatting, FAQ, schema, or internal-link improvements
+- `Low`: minor clarity or presentation issue
+
+Record effort separately as small, medium, or large. A quick win is an effort/impact judgment, not severity.
 
 ## What To Flag Explicitly
 

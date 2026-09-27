@@ -1,67 +1,24 @@
-# Output Templates
+# Output templates
 
-Use these templates to keep responses concise and consistent.
+Adapt these to the requested deliverable. Scores, FAQs, schema, and extra sections are optional.
 
-## Quick Audit
+## Audit
 
-```markdown
-## [Page or Site] Quick Audit
+- Scope: inspected pages or files, sampling and access limits.
+- Priorities: source and evidence → likely impact → concrete fix; include confidence where uncertain.
+- Replacement copy: only the metadata or sections that address findings.
+- Unverified items: what evidence or tool would resolve them.
 
-**Scope reviewed:** [pages or files]
+When scores are useful, add dimension, score, observed/applicable weight, and limitations using the scoring rubric. Do not present heuristic scores as measured search outcomes.
 
-| Dimension | Score | Status |
-|---|---:|---|
-| SEO | X/10 | [Needs work / On track / Strong] |
-| GEO | X/10 | [Needs work / On track / Strong] |
-| AEO | X/10 | [Needs work / On track / Strong] |
+## Rewrite or implementation
 
-**Top priorities**
-1. [Highest-impact issue]
-2. [Second issue]
-3. [Third issue]
+Lead with revised copy or links to edited artifacts. Include supporting metadata, links, or markup only when relevant. Briefly explain material changes and distinguish applied edits, suggestions needing facts, and checks completed.
 
-**Biggest strength:** [Observed positive]
-```
+## Full-site handoff
 
-## Fix Pack
-
-```markdown
-## Fix Pack
-
-**Revised title:** [text]
-**Revised meta description:** [text]
-**Recommended H1:** [text]
-**Author or trust hook:** [text or "Not needed"]
-**Answer-first intro:** [text]
-
-**FAQ additions**
-1. **Q:** [question]
-   **A:** [answer]
-2. **Q:** [question]
-   **A:** [answer]
-3. **Q:** [question]
-   **A:** [answer]
-
-**Internal-link ideas**
-- [Anchor text] -> [destination]
-- [Anchor text] -> [destination]
-
-**Entity or coverage gaps:** [missing subtopics, supporting entities, or comparison points]
-**Media or proof improvements:** [image, chart, caption, screenshot, video, or evidence idea]
-**Schema recommendation:** [type, key properties, and why]
-```
+Provide scope and coverage, shared template issues, page-specific findings, and a prioritized action list. Each action should identify its source, proposed change, likely impact, effort, and acceptance check. Mark inaccessible and pending pages explicitly.
 
 ## Recheck
 
-```markdown
-## Recheck Summary
-
-**Improved**
-- [What changed]
-
-**Still needs work**
-- [What remains]
-
-**Needs external validation**
-- [Speed, indexing, backlinks, analytics, or other tool-dependent items]
-```
+Report resolved, remaining, newly observed, and unverified items against the baseline. Separate content verification from live rendering or external measurement. If no baseline exists, label the result a current-state review.
